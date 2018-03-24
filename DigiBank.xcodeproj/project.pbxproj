@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09020C591EA0795700DB0FF0 /* MCChatSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09020C581EA0795700DB0FF0 /* MCChatSettingViewController.m */; };
+		09020C6B1EA08B3500DB0FF0 /* MCChatSettingBriefCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09020C6A1EA08B3500DB0FF0 /* MCChatSettingBriefCell.m */; };
+		09020C701EA0A5D300DB0FF0 /* MCChatSettingMemberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09020C6F1EA0A5D300DB0FF0 /* MCChatSettingMemberCell.m */; };
+		0904C9ED1E88D5EA009D135A /* MCMeetListSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904C9EC1E88D5EA009D135A /* MCMeetListSectionView.m */; };
+		0904C9F61E890033009D135A /* MCMeetListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904C9F51E890033009D135A /* MCMeetListCell.m */; };
+		0904C9F91E89FC97009D135A /* UIImageView+MCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904C9F81E89FC97009D135A /* UIImageView+MCExtension.m */; };
+		0904C9FC1E89FE15009D135A /* UIImage+MCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904C9FB1E89FE15009D135A /* UIImage+MCExtension.m */; };
+		0904CA071E8A3CF0009D135A /* MCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904CA061E8A3CF0009D135A /* MCTabBar.m */; };
+		091BE0F51E8D05C4003684B8 /* MCExpandTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE0F01E8D05C4003684B8 /* MCExpandTableView.m */; };
+		091BE0F61E8D05C4003684B8 /* MCExpandHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE0F21E8D05C4003684B8 /* MCExpandHeadCell.m */; };
+		091BE0FC1E8D05E8003684B8 /* MCFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE0F91E8D05E8003684B8 /* MCFileListViewController.m */; };
+		091BE0FD1E8D05E8003684B8 /* MCFileListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE0FB1E8D05E8003684B8 /* MCFileListCell.m */; };
+		091BE1081E8DFF92003684B8 /* MCFileSigneeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE1071E8DFF92003684B8 /* MCFileSigneeCell.m */; };
+		091BE10C1E8E21B6003684B8 /* MCExpandCompleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE10B1E8E21B6003684B8 /* MCExpandCompleteCell.m */; };
+		091BE10F1E8E2FE9003684B8 /* MCFileSignActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 091BE10E1E8E2FE9003684B8 /* MCFileSignActionCell.m */; };
+		093473621F1DE1C800A104EB /* MXColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09991AAD1F1DDD5A008A0416 /* MXColorManager.m */; };
+		093473651F1DE1CA00A104EB /* MXFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09991AB11F1DDD5A008A0416 /* MXFontManager.m */; };
+		0963C7771EA454050075C7FB /* MCToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7761EA454050075C7FB /* MCToDoListViewController.m */; };
+		0963C77A1EA469EB0075C7FB /* MCChatBriefSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7791EA469EB0075C7FB /* MCChatBriefSettingViewController.m */; };
+		0963C7831EA493830075C7FB /* MCChatBriefEditTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7821EA493830075C7FB /* MCChatBriefEditTopicViewController.m */; };
+		0963C7861EA498EC0075C7FB /* MCChatBriefEditDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7851EA498EC0075C7FB /* MCChatBriefEditDescViewController.m */; };
+		0963C78B1EA4BEE30075C7FB /* MCChatEditCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C78A1EA4BEE30075C7FB /* MCChatEditCategoryViewController.m */; };
+		0963C78E1EA5A9CC0075C7FB /* MCChatEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C78D1EA5A9CC0075C7FB /* MCChatEmailViewController.m */; };
+		0963C79A1EA728680075C7FB /* MCMeetInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7991EA728680075C7FB /* MCMeetInfoViewController.m */; };
+		0963C7A01EA72B220075C7FB /* MCInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C79F1EA72B220075C7FB /* MCInputTableViewCell.m */; };
+		0963C7A61EA856560075C7FB /* MCMeetRecordPlayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7A51EA856560075C7FB /* MCMeetRecordPlayCell.m */; };
+		0963C7A91EA89E700075C7FB /* NSDate+MCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963C7A81EA89E700075C7FB /* NSDate+MCExtension.m */; };
+		097EECE91EB86868002C7CD6 /* UIImage+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 097EECE81EB86868002C7CD6 /* UIImage+TYSnapshot.m */; };
+		09CC40241E9CCDD000620F1F /* MCFileDeclineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC40231E9CCDD000620F1F /* MCFileDeclineViewController.m */; };
+		09D1A0681E963BDD0052A64A /* MCInviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D1A0671E963BDD0052A64A /* MCInviteViewController.m */; };
+		09D1A0701E9729940052A64A /* MCCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D1A06F1E9729940052A64A /* MCCheckBox.m */; };
+		09D1A07B1E9781250052A64A /* MCUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D1A07A1E9781250052A64A /* MCUserInfoViewController.m */; };
+		09D811F11E76890B00D64B48 /* MCUserListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D811F01E76890B00D64B48 /* MCUserListCell.m */; };
+		09DFEF171E80E7A7002668FB /* MCMessageCenterInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DFEF161E80E7A7002668FB /* MCMessageCenterInstance.m */; };
+		09E133271E7648CF0060D5F6 /* MCUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E133261E7648CF0060D5F6 /* MCUserListViewController.m */; };
+		1606113F1E13ECDC00A3F155 /* NSTimer+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1606113D1E13ECDC00A3F155 /* NSTimer+MCHelper.m */; };
+		161C4D1D1E13BD18001F8AB4 /* meetcalling.caf in Resources */ = {isa = PBXBuildFile; fileRef = 161C4D1C1E13BD18001F8AB4 /* meetcalling.caf */; };
+		165667901E15267200676673 /* MXUserItem+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656678F1E15267200676673 /* MXUserItem+MCHelper.m */; };
+		166851301E136B8D0007B538 /* MCMeetRingCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1668512F1E136B8D0007B538 /* MCMeetRingCallViewController.m */; };
+		1675EBA41E2354740008BB73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1675EBA21E2354740008BB73 /* Localizable.strings */; };
+		16AF38AD1DFA52690002FE4C /* UIView+MCPdfConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF38AC1DFA52690002FE4C /* UIView+MCPdfConvert.m */; };
+		16AF38B11DFA53400002FE4C /* MCPrintPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AF38B01DFA53400002FE4C /* MCPrintPageRenderer.m */; };
+		16CBD0FB1E038D96006AFAB9 /* UIScrollView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBD0F91E038D96006AFAB9 /* UIScrollView+TYSnapshot.m */; };
+		3B159A1AEE31363A1865E1EB /* libPods-DigiBank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5AB08952994BBC314A3AD0 /* libPods-DigiBank.a */; };
+		3C42070F080C0FE957472283 /* ChatSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C913E4EB6C686D07EE63299D /* ChatSDKResource.bundle */; };
+		56C476261E02B86A00DC68E7 /* MCSaveToChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C476251E02B86A00DC68E7 /* MCSaveToChatController.m */; };
+		56C476301E02CB7500DC68E7 /* MCSaveToChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C4762F1E02CB7500DC68E7 /* MCSaveToChatCell.m */; };
+		653173CA1DFEB78300B68767 /* MCTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 653173C91DFEB78300B68767 /* MCTabButton.m */; };
+		65396B9F1DEF3C3200DFEAFE /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65396B9E1DEF3C3200DFEAFE /* libxml2.2.tbd */; };
+		654053F81DF0903800469F02 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 654053F71DF0903800469F02 /* libz.tbd */; };
+		654053FA1DF0904700469F02 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 654053F91DF0904700469F02 /* libstdc++.6.tbd */; };
+		65762B1D1E5BD8E5007D2503 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65762B1C1E5BD8E5007D2503 /* GLKit.framework */; };
+		65762B1F1E5BD8EB007D2503 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65762B1E1E5BD8EB007D2503 /* VideoToolbox.framework */; };
+		65DC53061DF6BC7400D0FF86 /* NSMutableArray+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC53051DF6BC7400D0FF86 /* NSMutableArray+MCHelper.m */; };
+		65DC53091DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DC53081DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.m */; };
+		65EE5A291DF536ED00836D63 /* MCMessageCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657DEFD41DEEE542007BD6CB /* MCMessageCenterViewController.m */; };
+		65EE5A2B1DF536ED00836D63 /* MCChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595C3B91DEEFF63008CD3F9 /* MCChatListViewController.m */; };
+		65EE5A2F1DF536ED00836D63 /* MCMeetListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595C3BF1DEEFF93008CD3F9 /* MCMeetListViewController.m */; };
+		65EE5A311DF536EE00836D63 /* MCChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6595C3C31DEF27FA008CD3F9 /* MCChatListCell.m */; };
+		65EE5A361DF536FE00836D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE5A1F1DF5360E00836D63 /* main.m */; };
+		65EE5A381DF536FE00836D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654F7CF51DEED7F300324AAE /* AppDelegate.m */; };
+		65EE5A3A1DF536FE00836D63 /* MCSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B733FB1DF52D2D00AE4FC0 /* MCSideMenuViewController.m */; };
+		65EE5A3B1DF536FE00836D63 /* MCSideMenuPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B733FC1DF52D2D00AE4FC0 /* MCSideMenuPresentationController.m */; };
+		65EE5A3C1DF536FE00836D63 /* MCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B733FD1DF52D2D00AE4FC0 /* MCRootViewController.m */; };
+		65EE5A3D1DF536FE00836D63 /* UIViewController+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B733FE1DF52D2D00AE4FC0 /* UIViewController+MCHelper.m */; };
+		65EE5A421DF536FE00836D63 /* UIWindow+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B734031DF52D2D00AE4FC0 /* UIWindow+MCHelper.m */; };
+		65EE5A461DF5380700836D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EE5A441DF5380700836D63 /* LaunchScreen.storyboard */; };
+		65EE5A4C1DF55CAA00836D63 /* MCAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EE5A4A1DF54BBF00836D63 /* MCAssets.xcassets */; };
+		65EE5A4D1DF55CAA00836D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6595C3B61DEEFD68008CD3F9 /* Assets.xcassets */; };
+		65F79A0E1E037E2000B41A11 /* UIView+MCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F79A0D1E037E2000B41A11 /* UIView+MCHelper.m */; };
+		8554EC371F1787580044DD7A /* MCCallKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8554EC041F1757B30044DD7A /* MCCallKitManager.m */; };
+		A3C12B281E725AF90080CE52 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65396B981DEF3C1F00DFEAFE /* libc++.tbd */; };
+		B3E594241FA1143400F03A73 /* ChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C6F8670D79158CB9743842 /* ChatSDK.framework */; };
+		DC3076EC1E026E93001221A7 /* MCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3076EB1E026E93001221A7 /* MCHomeViewController.m */; };
+		DC3076F61E027DFE001221A7 /* MCHomeAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3076F51E027DFE001221A7 /* MCHomeAccountCell.m */; };
+		DC3076F91E027E19001221A7 /* MCHomeInvestmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3076F81E027E19001221A7 /* MCHomeInvestmentCell.m */; };
+		DC3076FC1E027E33001221A7 /* MCHomeNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3076FB1E027E32001221A7 /* MCHomeNewsCell.m */; };
+		DC3077051E0290B9001221A7 /* MCAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3077041E0290B9001221A7 /* MCAccountController.m */; };
+		DC3077081E0297DF001221A7 /* MCStatementController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3077071E0297DF001221A7 /* MCStatementController.m */; };
+		DC30770E1E029C33001221A7 /* portfolio-statement.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC30770D1E029C33001221A7 /* portfolio-statement.pdf */; };
+		DCA10A621DF5407F0002AF1D /* MCAddChatOptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA10A611DF5407F0002AF1D /* MCAddChatOptionController.m */; };
+		DCA10A7C1DF55BCB0002AF1D /* MCTodoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA10A7B1DF55BCB0002AF1D /* MCTodoListCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09020C571EA0795700DB0FF0 /* MCChatSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatSettingViewController.h; sourceTree = "<group>"; };
+		09020C581EA0795700DB0FF0 /* MCChatSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatSettingViewController.m; sourceTree = "<group>"; };
+		09020C691EA08B3500DB0FF0 /* MCChatSettingBriefCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatSettingBriefCell.h; sourceTree = "<group>"; };
+		09020C6A1EA08B3500DB0FF0 /* MCChatSettingBriefCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatSettingBriefCell.m; sourceTree = "<group>"; };
+		09020C6E1EA0A5D300DB0FF0 /* MCChatSettingMemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatSettingMemberCell.h; sourceTree = "<group>"; };
+		09020C6F1EA0A5D300DB0FF0 /* MCChatSettingMemberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatSettingMemberCell.m; sourceTree = "<group>"; };
+		0904C9EB1E88D5EA009D135A /* MCMeetListSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeetListSectionView.h; sourceTree = "<group>"; };
+		0904C9EC1E88D5EA009D135A /* MCMeetListSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeetListSectionView.m; sourceTree = "<group>"; };
+		0904C9F41E890033009D135A /* MCMeetListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeetListCell.h; sourceTree = "<group>"; };
+		0904C9F51E890033009D135A /* MCMeetListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeetListCell.m; sourceTree = "<group>"; };
+		0904C9F71E89FC97009D135A /* UIImageView+MCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+MCExtension.h"; path = "MCExtension/UIImageView+MCExtension.h"; sourceTree = "<group>"; };
+		0904C9F81E89FC97009D135A /* UIImageView+MCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+MCExtension.m"; path = "MCExtension/UIImageView+MCExtension.m"; sourceTree = "<group>"; };
+		0904C9FA1E89FE15009D135A /* UIImage+MCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MCExtension.h"; path = "MCExtension/UIImage+MCExtension.h"; sourceTree = "<group>"; };
+		0904C9FB1E89FE15009D135A /* UIImage+MCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MCExtension.m"; path = "MCExtension/UIImage+MCExtension.m"; sourceTree = "<group>"; };
+		0904CA051E8A3CF0009D135A /* MCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabBar.h; sourceTree = "<group>"; };
+		0904CA061E8A3CF0009D135A /* MCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabBar.m; sourceTree = "<group>"; };
+		091BE0EF1E8D05C4003684B8 /* MCExpandTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCExpandTableView.h; sourceTree = "<group>"; };
+		091BE0F01E8D05C4003684B8 /* MCExpandTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCExpandTableView.m; sourceTree = "<group>"; };
+		091BE0F11E8D05C4003684B8 /* MCExpandHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCExpandHeadCell.h; sourceTree = "<group>"; };
+		091BE0F21E8D05C4003684B8 /* MCExpandHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCExpandHeadCell.m; sourceTree = "<group>"; };
+		091BE0F81E8D05E8003684B8 /* MCFileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileListViewController.h; sourceTree = "<group>"; };
+		091BE0F91E8D05E8003684B8 /* MCFileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileListViewController.m; sourceTree = "<group>"; };
+		091BE0FA1E8D05E8003684B8 /* MCFileListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileListCell.h; sourceTree = "<group>"; };
+		091BE0FB1E8D05E8003684B8 /* MCFileListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileListCell.m; sourceTree = "<group>"; };
+		091BE1061E8DFF92003684B8 /* MCFileSigneeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileSigneeCell.h; sourceTree = "<group>"; };
+		091BE1071E8DFF92003684B8 /* MCFileSigneeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileSigneeCell.m; sourceTree = "<group>"; };
+		091BE10A1E8E21B6003684B8 /* MCExpandCompleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCExpandCompleteCell.h; sourceTree = "<group>"; };
+		091BE10B1E8E21B6003684B8 /* MCExpandCompleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCExpandCompleteCell.m; sourceTree = "<group>"; };
+		091BE10D1E8E2FE9003684B8 /* MCFileSignActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileSignActionCell.h; sourceTree = "<group>"; };
+		091BE10E1E8E2FE9003684B8 /* MCFileSignActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileSignActionCell.m; sourceTree = "<group>"; };
+		092F8F891E9B245F00EADEA5 /* MCToDoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCToDoListViewController.h; sourceTree = "<group>"; };
+		0963C7761EA454050075C7FB /* MCToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCToDoListViewController.m; sourceTree = "<group>"; };
+		0963C7781EA469EB0075C7FB /* MCChatBriefSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatBriefSettingViewController.h; sourceTree = "<group>"; };
+		0963C7791EA469EB0075C7FB /* MCChatBriefSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatBriefSettingViewController.m; sourceTree = "<group>"; };
+		0963C7811EA493830075C7FB /* MCChatBriefEditTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatBriefEditTopicViewController.h; sourceTree = "<group>"; };
+		0963C7821EA493830075C7FB /* MCChatBriefEditTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatBriefEditTopicViewController.m; sourceTree = "<group>"; };
+		0963C7841EA498EC0075C7FB /* MCChatBriefEditDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatBriefEditDescViewController.h; sourceTree = "<group>"; };
+		0963C7851EA498EC0075C7FB /* MCChatBriefEditDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatBriefEditDescViewController.m; sourceTree = "<group>"; };
+		0963C7891EA4BEE30075C7FB /* MCChatEditCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatEditCategoryViewController.h; sourceTree = "<group>"; };
+		0963C78A1EA4BEE30075C7FB /* MCChatEditCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatEditCategoryViewController.m; sourceTree = "<group>"; };
+		0963C78C1EA5A9CC0075C7FB /* MCChatEmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatEmailViewController.h; sourceTree = "<group>"; };
+		0963C78D1EA5A9CC0075C7FB /* MCChatEmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatEmailViewController.m; sourceTree = "<group>"; };
+		0963C7981EA728680075C7FB /* MCMeetInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeetInfoViewController.h; sourceTree = "<group>"; };
+		0963C7991EA728680075C7FB /* MCMeetInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeetInfoViewController.m; sourceTree = "<group>"; };
+		0963C79E1EA72B220075C7FB /* MCInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInputTableViewCell.h; sourceTree = "<group>"; };
+		0963C79F1EA72B220075C7FB /* MCInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInputTableViewCell.m; sourceTree = "<group>"; };
+		0963C7A41EA856560075C7FB /* MCMeetRecordPlayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeetRecordPlayCell.h; sourceTree = "<group>"; };
+		0963C7A51EA856560075C7FB /* MCMeetRecordPlayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeetRecordPlayCell.m; sourceTree = "<group>"; };
+		0963C7A71EA89E700075C7FB /* NSDate+MCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+MCExtension.h"; path = "MCExtension/NSDate+MCExtension.h"; sourceTree = "<group>"; };
+		0963C7A81EA89E700075C7FB /* NSDate+MCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MCExtension.m"; path = "MCExtension/NSDate+MCExtension.m"; sourceTree = "<group>"; };
+		097EECE71EB86868002C7CD6 /* UIImage+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+TYSnapshot.h"; path = "MessageCenterDemo/Snapshot/UIImage+TYSnapshot.h"; sourceTree = SOURCE_ROOT; };
+		097EECE81EB86868002C7CD6 /* UIImage+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TYSnapshot.m"; path = "MessageCenterDemo/Snapshot/UIImage+TYSnapshot.m"; sourceTree = SOURCE_ROOT; };
+		09991AAD1F1DDD5A008A0416 /* MXColorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXColorManager.m; sourceTree = "<group>"; };
+		09991AAE1F1DDD5A008A0416 /* MCChatEditCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCChatEditCategoryViewController.h; sourceTree = "<group>"; };
+		09991AAF1F1DDD5A008A0416 /* MXColorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXColorManager.h; sourceTree = "<group>"; };
+		09991AB01F1DDD5A008A0416 /* MXFontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXFontManager.h; sourceTree = "<group>"; };
+		09991AB11F1DDD5A008A0416 /* MXFontManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXFontManager.m; sourceTree = "<group>"; };
+		09CC40221E9CCDD000620F1F /* MCFileDeclineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFileDeclineViewController.h; sourceTree = "<group>"; };
+		09CC40231E9CCDD000620F1F /* MCFileDeclineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFileDeclineViewController.m; sourceTree = "<group>"; };
+		09D1A0661E963BDD0052A64A /* MCInviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInviteViewController.h; sourceTree = "<group>"; };
+		09D1A0671E963BDD0052A64A /* MCInviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInviteViewController.m; sourceTree = "<group>"; };
+		09D1A06E1E9729940052A64A /* MCCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCheckBox.h; sourceTree = "<group>"; };
+		09D1A06F1E9729940052A64A /* MCCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCheckBox.m; sourceTree = "<group>"; };
+		09D1A0791E9781250052A64A /* MCUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUserInfoViewController.h; sourceTree = "<group>"; };
+		09D1A07A1E9781250052A64A /* MCUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUserInfoViewController.m; sourceTree = "<group>"; };
+		09D811EF1E76890B00D64B48 /* MCUserListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUserListCell.h; sourceTree = "<group>"; };
+		09D811F01E76890B00D64B48 /* MCUserListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUserListCell.m; sourceTree = "<group>"; };
+		09DFEF151E80E7A7002668FB /* MCMessageCenterInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCMessageCenterInstance.h; path = MCManager/MCMessageCenterInstance.h; sourceTree = "<group>"; };
+		09DFEF161E80E7A7002668FB /* MCMessageCenterInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCMessageCenterInstance.m; path = MCManager/MCMessageCenterInstance.m; sourceTree = "<group>"; };
+		09E133251E7648CF0060D5F6 /* MCUserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCUserListViewController.h; path = MessageCenter/MCUserListViewController.h; sourceTree = SOURCE_ROOT; };
+		09E133261E7648CF0060D5F6 /* MCUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCUserListViewController.m; path = MessageCenter/MCUserListViewController.m; sourceTree = SOURCE_ROOT; };
+		0CEE7D527E45883982EE4D05 /* Pods-DigiBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigiBank/Pods-DigiBank.debug.xcconfig"; sourceTree = "<group>"; };
+		1606113C1E13ECDC00A3F155 /* NSTimer+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+MCHelper.h"; path = "MCCall/NSTimer+MCHelper.h"; sourceTree = "<group>"; };
+		1606113D1E13ECDC00A3F155 /* NSTimer+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+MCHelper.m"; path = "MCCall/NSTimer+MCHelper.m"; sourceTree = "<group>"; };
+		161C4D1C1E13BD18001F8AB4 /* meetcalling.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = meetcalling.caf; sourceTree = "<group>"; };
+		1656678E1E15267200676673 /* MXUserItem+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MXUserItem+MCHelper.h"; sourceTree = "<group>"; };
+		1656678F1E15267200676673 /* MXUserItem+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MXUserItem+MCHelper.m"; sourceTree = "<group>"; };
+		1668512E1E136B8D0007B538 /* MCMeetRingCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCMeetRingCallViewController.h; path = ../MCMeetRingCallViewController.h; sourceTree = "<group>"; };
+		1668512F1E136B8D0007B538 /* MCMeetRingCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCMeetRingCallViewController.m; path = ../MCMeetRingCallViewController.m; sourceTree = "<group>"; };
+		1675EBA31E2354740008BB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		16AF38AB1DFA52690002FE4C /* UIView+MCPdfConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MCPdfConvert.h"; sourceTree = "<group>"; };
+		16AF38AC1DFA52690002FE4C /* UIView+MCPdfConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MCPdfConvert.m"; sourceTree = "<group>"; };
+		16AF38AF1DFA53400002FE4C /* MCPrintPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCPrintPageRenderer.h; path = ../MessageCenter/MCPrintPageRenderer.h; sourceTree = "<group>"; };
+		16AF38B01DFA53400002FE4C /* MCPrintPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCPrintPageRenderer.m; path = ../MessageCenter/MCPrintPageRenderer.m; sourceTree = "<group>"; };
+		16CBD0F81E038D96006AFAB9 /* UIScrollView+TYSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TYSnapshot.h"; path = "../../MessageCenterDemo/Snapshot/UIScrollView+TYSnapshot.h"; sourceTree = "<group>"; };
+		16CBD0F91E038D96006AFAB9 /* UIScrollView+TYSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TYSnapshot.m"; path = "../../MessageCenterDemo/Snapshot/UIScrollView+TYSnapshot.m"; sourceTree = "<group>"; };
+		32C6F8670D79158CB9743842 /* ChatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChatSDK.framework; sourceTree = "<group>"; };
+		56C476241E02B86A00DC68E7 /* MCSaveToChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSaveToChatController.h; sourceTree = "<group>"; };
+		56C476251E02B86A00DC68E7 /* MCSaveToChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSaveToChatController.m; sourceTree = "<group>"; };
+		56C4762E1E02CB7500DC68E7 /* MCSaveToChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSaveToChatCell.h; sourceTree = "<group>"; };
+		56C4762F1E02CB7500DC68E7 /* MCSaveToChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSaveToChatCell.m; sourceTree = "<group>"; };
+		6511055E1E08F1D700A46EE2 /* MessageCenterDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessageCenterDemo.entitlements; sourceTree = "<group>"; };
+		653173C81DFEB78300B68767 /* MCTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTabButton.h; sourceTree = "<group>"; };
+		653173C91DFEB78300B68767 /* MCTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTabButton.m; sourceTree = "<group>"; };
+		653710EC1E5BEC1E008866A2 /* UICustomized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICustomized.h; sourceTree = "<group>"; };
+		65396B981DEF3C1F00DFEAFE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		65396B9E1DEF3C3200DFEAFE /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		654053F71DF0903800469F02 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		654053F91DF0904700469F02 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		654F7CEE1DEED7F300324AAE /* DigiBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654F7CF41DEED7F300324AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		654F7CF51DEED7F300324AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		654F7D021DEED7F300324AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65762B1C1E5BD8E5007D2503 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		65762B1E1E5BD8EB007D2503 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		657DEFD31DEEE542007BD6CB /* MCMessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMessageCenterViewController.h; sourceTree = "<group>"; };
+		657DEFD41DEEE542007BD6CB /* MCMessageCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMessageCenterViewController.m; sourceTree = "<group>"; };
+		6595C3B21DEEF2C1008CD3F9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6595C3B61DEEFD68008CD3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6595C3B81DEEFF63008CD3F9 /* MCChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatListViewController.h; sourceTree = "<group>"; };
+		6595C3B91DEEFF63008CD3F9 /* MCChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCChatListViewController.m; sourceTree = "<group>"; };
+		6595C3BE1DEEFF93008CD3F9 /* MCMeetListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeetListViewController.h; sourceTree = "<group>"; };
+		6595C3BF1DEEFF93008CD3F9 /* MCMeetListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeetListViewController.m; sourceTree = "<group>"; };
+		6595C3C21DEF27FA008CD3F9 /* MCChatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCChatListCell.h; sourceTree = "<group>"; };
+		6595C3C31DEF27FA008CD3F9 /* MCChatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MCChatListCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65B733FB1DF52D2D00AE4FC0 /* MCSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSideMenuViewController.m; sourceTree = "<group>"; };
+		65B733FC1DF52D2D00AE4FC0 /* MCSideMenuPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSideMenuPresentationController.m; sourceTree = "<group>"; };
+		65B733FD1DF52D2D00AE4FC0 /* MCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRootViewController.m; sourceTree = "<group>"; };
+		65B733FE1DF52D2D00AE4FC0 /* UIViewController+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MCHelper.m"; sourceTree = "<group>"; };
+		65B733FF1DF52D2D00AE4FC0 /* MCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRootViewController.h; sourceTree = "<group>"; };
+		65B734001DF52D2D00AE4FC0 /* MCSideMenuPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSideMenuPresentationController.h; sourceTree = "<group>"; };
+		65B734011DF52D2D00AE4FC0 /* MCSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSideMenuViewController.h; sourceTree = "<group>"; };
+		65B734021DF52D2D00AE4FC0 /* UIViewController+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MCHelper.h"; sourceTree = "<group>"; };
+		65B734031DF52D2D00AE4FC0 /* UIWindow+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+MCHelper.m"; path = "MessageCenterDemo/UIWindow+MCHelper.m"; sourceTree = SOURCE_ROOT; };
+		65B734041DF52D2D00AE4FC0 /* UIWindow+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWindow+MCHelper.h"; path = "MessageCenterDemo/UIWindow+MCHelper.h"; sourceTree = SOURCE_ROOT; };
+		65DC53041DF6BC7400D0FF86 /* NSMutableArray+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MCHelper.h"; sourceTree = "<group>"; };
+		65DC53051DF6BC7400D0FF86 /* NSMutableArray+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MCHelper.m"; sourceTree = "<group>"; };
+		65DC53071DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFlipFromLeftAnimator.h; sourceTree = "<group>"; };
+		65DC53081DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFlipFromLeftAnimator.m; sourceTree = "<group>"; };
+		65EE5A1F1DF5360E00836D63 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MessageCenterDemo/main.m; sourceTree = SOURCE_ROOT; };
+		65EE5A451DF5380700836D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MessageCenterDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		65EE5A4A1DF54BBF00836D63 /* MCAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MCAssets.xcassets; sourceTree = "<group>"; };
+		65F79A0C1E037E2000B41A11 /* UIView+MCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MCHelper.h"; sourceTree = "<group>"; };
+		65F79A0D1E037E2000B41A11 /* UIView+MCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MCHelper.m"; sourceTree = "<group>"; };
+		6E5AB08952994BBC314A3AD0 /* libPods-DigiBank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigiBank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8554EC041F1757B30044DD7A /* MCCallKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCallKitManager.m; sourceTree = "<group>"; };
+		8554EC051F1757B30044DD7A /* MCCallKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCCallKitManager.h; sourceTree = "<group>"; };
+		BEF071F84CD90757573F9B49 /* Pods-DigiBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigiBank/Pods-DigiBank.release.xcconfig"; sourceTree = "<group>"; };
+		C913E4EB6C686D07EE63299D /* ChatSDKResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ChatSDKResource.bundle; sourceTree = "<group>"; };
+		D1E1B29CAA7FE0BC7DB0FD26 /* libPods-MessageCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MessageCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3076EA1E026E93001221A7 /* MCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHomeViewController.h; sourceTree = "<group>"; };
+		DC3076EB1E026E93001221A7 /* MCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHomeViewController.m; sourceTree = "<group>"; };
+		DC3076F41E027DFE001221A7 /* MCHomeAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHomeAccountCell.h; sourceTree = "<group>"; };
+		DC3076F51E027DFE001221A7 /* MCHomeAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHomeAccountCell.m; sourceTree = "<group>"; };
+		DC3076F71E027E19001221A7 /* MCHomeInvestmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHomeInvestmentCell.h; sourceTree = "<group>"; };
+		DC3076F81E027E19001221A7 /* MCHomeInvestmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHomeInvestmentCell.m; sourceTree = "<group>"; };
+		DC3076FA1E027E32001221A7 /* MCHomeNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHomeNewsCell.h; sourceTree = "<group>"; };
+		DC3076FB1E027E32001221A7 /* MCHomeNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHomeNewsCell.m; sourceTree = "<group>"; };
+		DC3077031E0290B9001221A7 /* MCAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAccountController.h; sourceTree = "<group>"; };
+		DC3077041E0290B9001221A7 /* MCAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAccountController.m; sourceTree = "<group>"; };
+		DC3077061E0297DF001221A7 /* MCStatementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStatementController.h; sourceTree = "<group>"; };
+		DC3077071E0297DF001221A7 /* MCStatementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStatementController.m; sourceTree = "<group>"; };
+		DC30770D1E029C33001221A7 /* portfolio-statement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "portfolio-statement.pdf"; sourceTree = "<group>"; };
+		DCA10A601DF5407F0002AF1D /* MCAddChatOptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddChatOptionController.h; sourceTree = "<group>"; };
+		DCA10A611DF5407F0002AF1D /* MCAddChatOptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAddChatOptionController.m; sourceTree = "<group>"; };
+		DCA10A7A1DF55BCB0002AF1D /* MCTodoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTodoListCell.h; sourceTree = "<group>"; };
+		DCA10A7B1DF55BCB0002AF1D /* MCTodoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTodoListCell.m; sourceTree = "<group>"; };
+		E077582D1F630AE200C87391 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FF97334A7DCB62AF4032BC1E /* libPods-Digi Bank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Digi Bank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654F7CEB1DEED7F300324AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E594241FA1143400F03A73 /* ChatSDK.framework in Frameworks */,
+				65762B1F1E5BD8EB007D2503 /* VideoToolbox.framework in Frameworks */,
+				65762B1D1E5BD8E5007D2503 /* GLKit.framework in Frameworks */,
+				654053FA1DF0904700469F02 /* libstdc++.6.tbd in Frameworks */,
+				A3C12B281E725AF90080CE52 /* libc++.tbd in Frameworks */,
+				65396B9F1DEF3C3200DFEAFE /* libxml2.2.tbd in Frameworks */,
+				654053F81DF0903800469F02 /* libz.tbd in Frameworks */,
+				3B159A1AEE31363A1865E1EB /* libPods-DigiBank.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0904C9FD1E8A3B4C009D135A /* File */ = {
+			isa = PBXGroup;
+			children = (
+				091BE0F81E8D05E8003684B8 /* MCFileListViewController.h */,
+				091BE0F91E8D05E8003684B8 /* MCFileListViewController.m */,
+				09CC40221E9CCDD000620F1F /* MCFileDeclineViewController.h */,
+				09CC40231E9CCDD000620F1F /* MCFileDeclineViewController.m */,
+				09CC40171E9C848700620F1F /* Views */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		0904CA041E8A3CA9009D135A /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0963C79D1EA72AF70075C7FB /* MCExpandTableView */,
+				0904CA081E8A3D76009D135A /* MCTabBar */,
+				0963C79E1EA72B220075C7FB /* MCInputTableViewCell.h */,
+				0963C79F1EA72B220075C7FB /* MCInputTableViewCell.m */,
+			);
+			name = UIComponent;
+			sourceTree = "<group>";
+		};
+		0904CA081E8A3D76009D135A /* MCTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				653173C81DFEB78300B68767 /* MCTabButton.h */,
+				653173C91DFEB78300B68767 /* MCTabButton.m */,
+				0904CA051E8A3CF0009D135A /* MCTabBar.h */,
+				0904CA061E8A3CF0009D135A /* MCTabBar.m */,
+			);
+			name = MCTabBar;
+			sourceTree = "<group>";
+		};
+		091D04D71E824DE30066D12E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC3076EA1E026E93001221A7 /* MCHomeViewController.h */,
+				DC3076EB1E026E93001221A7 /* MCHomeViewController.m */,
+				091D04D81E8250240066D12E /* Views */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		091D04D81E8250240066D12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC3076F41E027DFE001221A7 /* MCHomeAccountCell.h */,
+				DC3076F51E027DFE001221A7 /* MCHomeAccountCell.m */,
+				DC3076F71E027E19001221A7 /* MCHomeInvestmentCell.h */,
+				DC3076F81E027E19001221A7 /* MCHomeInvestmentCell.m */,
+				DC3076FA1E027E32001221A7 /* MCHomeNewsCell.h */,
+				DC3076FB1E027E32001221A7 /* MCHomeNewsCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		091D04D91E82514F0066D12E /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				6595C3B81DEEFF63008CD3F9 /* MCChatListViewController.h */,
+				6595C3B91DEEFF63008CD3F9 /* MCChatListViewController.m */,
+				DCA10A601DF5407F0002AF1D /* MCAddChatOptionController.h */,
+				DCA10A611DF5407F0002AF1D /* MCAddChatOptionController.m */,
+				0963C77E1EA493470075C7FB /* ChatSetting */,
+				091D04DA1E8260B80066D12E /* Views */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
+		091D04DA1E8260B80066D12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6595C3C21DEF27FA008CD3F9 /* MCChatListCell.h */,
+				6595C3C31DEF27FA008CD3F9 /* MCChatListCell.m */,
+				09020C691EA08B3500DB0FF0 /* MCChatSettingBriefCell.h */,
+				09020C6A1EA08B3500DB0FF0 /* MCChatSettingBriefCell.m */,
+				09020C6E1EA0A5D300DB0FF0 /* MCChatSettingMemberCell.h */,
+				09020C6F1EA0A5D300DB0FF0 /* MCChatSettingMemberCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		091D04DB1E835E010066D12E /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				092F8F891E9B245F00EADEA5 /* MCToDoListViewController.h */,
+				0963C7761EA454050075C7FB /* MCToDoListViewController.m */,
+				091D04DC1E835E240066D12E /* Views */,
+			);
+			name = Todo;
+			sourceTree = "<group>";
+		};
+		091D04DC1E835E240066D12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCA10A7A1DF55BCB0002AF1D /* MCTodoListCell.h */,
+				DCA10A7B1DF55BCB0002AF1D /* MCTodoListCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		091D04DD1E835E3B0066D12E /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				6595C3BE1DEEFF93008CD3F9 /* MCMeetListViewController.h */,
+				6595C3BF1DEEFF93008CD3F9 /* MCMeetListViewController.m */,
+				0963C7981EA728680075C7FB /* MCMeetInfoViewController.h */,
+				0963C7991EA728680075C7FB /* MCMeetInfoViewController.m */,
+				091D04DE1E835E600066D12E /* Views */,
+			);
+			name = Meeting;
+			sourceTree = "<group>";
+		};
+		091D04DE1E835E600066D12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0904C9F41E890033009D135A /* MCMeetListCell.h */,
+				0904C9F51E890033009D135A /* MCMeetListCell.m */,
+				0904C9EB1E88D5EA009D135A /* MCMeetListSectionView.h */,
+				0904C9EC1E88D5EA009D135A /* MCMeetListSectionView.m */,
+				0963C7A41EA856560075C7FB /* MCMeetRecordPlayCell.h */,
+				0963C7A51EA856560075C7FB /* MCMeetRecordPlayCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		091D04DF1E835E7E0066D12E /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				09E133251E7648CF0060D5F6 /* MCUserListViewController.h */,
+				09E133261E7648CF0060D5F6 /* MCUserListViewController.m */,
+				09D1A0661E963BDD0052A64A /* MCInviteViewController.h */,
+				09D1A0671E963BDD0052A64A /* MCInviteViewController.m */,
+				09D1A0791E9781250052A64A /* MCUserInfoViewController.h */,
+				09D1A07A1E9781250052A64A /* MCUserInfoViewController.m */,
+				091D04E01E835ECA0066D12E /* Views */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		091D04E01E835ECA0066D12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09D811EF1E76890B00D64B48 /* MCUserListCell.h */,
+				09D811F01E76890B00D64B48 /* MCUserListCell.m */,
+				09D1A06E1E9729940052A64A /* MCCheckBox.h */,
+				09D1A06F1E9729940052A64A /* MCCheckBox.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0963C77E1EA493470075C7FB /* ChatSetting */ = {
+			isa = PBXGroup;
+			children = (
+				09020C571EA0795700DB0FF0 /* MCChatSettingViewController.h */,
+				09020C581EA0795700DB0FF0 /* MCChatSettingViewController.m */,
+				0963C7781EA469EB0075C7FB /* MCChatBriefSettingViewController.h */,
+				0963C7791EA469EB0075C7FB /* MCChatBriefSettingViewController.m */,
+				0963C7811EA493830075C7FB /* MCChatBriefEditTopicViewController.h */,
+				0963C7821EA493830075C7FB /* MCChatBriefEditTopicViewController.m */,
+				0963C7841EA498EC0075C7FB /* MCChatBriefEditDescViewController.h */,
+				0963C7851EA498EC0075C7FB /* MCChatBriefEditDescViewController.m */,
+				0963C7891EA4BEE30075C7FB /* MCChatEditCategoryViewController.h */,
+				0963C78A1EA4BEE30075C7FB /* MCChatEditCategoryViewController.m */,
+				0963C78C1EA5A9CC0075C7FB /* MCChatEmailViewController.h */,
+				0963C78D1EA5A9CC0075C7FB /* MCChatEmailViewController.m */,
+			);
+			name = ChatSetting;
+			sourceTree = "<group>";
+		};
+		0963C79D1EA72AF70075C7FB /* MCExpandTableView */ = {
+			isa = PBXGroup;
+			children = (
+				091BE0EF1E8D05C4003684B8 /* MCExpandTableView.h */,
+				091BE0F01E8D05C4003684B8 /* MCExpandTableView.m */,
+				091BE0F11E8D05C4003684B8 /* MCExpandHeadCell.h */,
+				091BE0F21E8D05C4003684B8 /* MCExpandHeadCell.m */,
+				091BE10A1E8E21B6003684B8 /* MCExpandCompleteCell.h */,
+				091BE10B1E8E21B6003684B8 /* MCExpandCompleteCell.m */,
+			);
+			name = MCExpandTableView;
+			sourceTree = "<group>";
+		};
+		09CC40171E9C848700620F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				091BE0FA1E8D05E8003684B8 /* MCFileListCell.h */,
+				091BE0FB1E8D05E8003684B8 /* MCFileListCell.m */,
+				091BE10D1E8E2FE9003684B8 /* MCFileSignActionCell.h */,
+				091BE10E1E8E2FE9003684B8 /* MCFileSignActionCell.m */,
+				091BE1061E8DFF92003684B8 /* MCFileSigneeCell.h */,
+				091BE1071E8DFF92003684B8 /* MCFileSigneeCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09DFEF1C1E81073A002668FB /* MCExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1606113C1E13ECDC00A3F155 /* NSTimer+MCHelper.h */,
+				1606113D1E13ECDC00A3F155 /* NSTimer+MCHelper.m */,
+				16AF38AB1DFA52690002FE4C /* UIView+MCPdfConvert.h */,
+				16AF38AC1DFA52690002FE4C /* UIView+MCPdfConvert.m */,
+				0904C9FA1E89FE15009D135A /* UIImage+MCExtension.h */,
+				0904C9FB1E89FE15009D135A /* UIImage+MCExtension.m */,
+				0904C9F71E89FC97009D135A /* UIImageView+MCExtension.h */,
+				0904C9F81E89FC97009D135A /* UIImageView+MCExtension.m */,
+				0963C7A71EA89E700075C7FB /* NSDate+MCExtension.h */,
+				0963C7A81EA89E700075C7FB /* NSDate+MCExtension.m */,
+				09991AAE1F1DDD5A008A0416 /* MCChatEditCategoryViewController.h */,
+				09991AAF1F1DDD5A008A0416 /* MXColorManager.h */,
+				09991AAD1F1DDD5A008A0416 /* MXColorManager.m */,
+				09991AB01F1DDD5A008A0416 /* MXFontManager.h */,
+				09991AB11F1DDD5A008A0416 /* MXFontManager.m */,
+				1656678E1E15267200676673 /* MXUserItem+MCHelper.h */,
+				1656678F1E15267200676673 /* MXUserItem+MCHelper.m */,
+				65F79A0C1E037E2000B41A11 /* UIView+MCHelper.h */,
+				65F79A0D1E037E2000B41A11 /* UIView+MCHelper.m */,
+				65B734031DF52D2D00AE4FC0 /* UIWindow+MCHelper.m */,
+				65B734041DF52D2D00AE4FC0 /* UIWindow+MCHelper.h */,
+				65DC53041DF6BC7400D0FF86 /* NSMutableArray+MCHelper.h */,
+				65DC53051DF6BC7400D0FF86 /* NSMutableArray+MCHelper.m */,
+			);
+			name = MCExtension;
+			sourceTree = "<group>";
+		};
+		09DFEF221E8221D2002668FB /* MCSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				65B734011DF52D2D00AE4FC0 /* MCSideMenuViewController.h */,
+				65B733FB1DF52D2D00AE4FC0 /* MCSideMenuViewController.m */,
+				65B734001DF52D2D00AE4FC0 /* MCSideMenuPresentationController.h */,
+				65B733FC1DF52D2D00AE4FC0 /* MCSideMenuPresentationController.m */,
+				65DC53071DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.h */,
+				65DC53081DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.m */,
+			);
+			name = MCSideMenu;
+			sourceTree = "<group>";
+		};
+		160611391E13ECDC00A3F155 /* MCCall&Meet */ = {
+			isa = PBXGroup;
+			children = (
+				8554EC051F1757B30044DD7A /* MCCallKitManager.h */,
+				8554EC041F1757B30044DD7A /* MCCallKitManager.m */,
+				1668512E1E136B8D0007B538 /* MCMeetRingCallViewController.h */,
+				1668512F1E136B8D0007B538 /* MCMeetRingCallViewController.m */,
+			);
+			name = "MCCall&Meet";
+			path = MCCall;
+			sourceTree = "<group>";
+		};
+		1675EBA11E2354740008BB73 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1675EBA21E2354740008BB73 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		1675EBA51E2354820008BB73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				161C4D1C1E13BD18001F8AB4 /* meetcalling.caf */,
+				65EE5A4A1DF54BBF00836D63 /* MCAssets.xcassets */,
+				1675EBA11E2354740008BB73 /* Localization */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		16CBD0F51E038D96006AFAB9 /* Snapshot */ = {
+			isa = PBXGroup;
+			children = (
+				097EECE71EB86868002C7CD6 /* UIImage+TYSnapshot.h */,
+				097EECE81EB86868002C7CD6 /* UIImage+TYSnapshot.m */,
+				16CBD0F81E038D96006AFAB9 /* UIScrollView+TYSnapshot.h */,
+				16CBD0F91E038D96006AFAB9 /* UIScrollView+TYSnapshot.m */,
+			);
+			name = Snapshot;
+			path = ../MessageCenter/Snapshot;
+			sourceTree = "<group>";
+		};
+		4F201A82D2CE56F6229451A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65762B1E1E5BD8EB007D2503 /* VideoToolbox.framework */,
+				65762B1C1E5BD8E5007D2503 /* GLKit.framework */,
+				654053F91DF0904700469F02 /* libstdc++.6.tbd */,
+				654053F71DF0903800469F02 /* libz.tbd */,
+				65396B9E1DEF3C3200DFEAFE /* libxml2.2.tbd */,
+				65396B981DEF3C1F00DFEAFE /* libc++.tbd */,
+				D1E1B29CAA7FE0BC7DB0FD26 /* libPods-MessageCenter.a */,
+				FF97334A7DCB62AF4032BC1E /* libPods-Digi Bank.a */,
+				6E5AB08952994BBC314A3AD0 /* libPods-DigiBank.a */,
+				32C6F8670D79158CB9743842 /* ChatSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56151D316C1C47F8C8EBCE58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CEE7D527E45883982EE4D05 /* Pods-DigiBank.debug.xcconfig */,
+				BEF071F84CD90757573F9B49 /* Pods-DigiBank.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		654F7CE51DEED7F300324AAE = {
+			isa = PBXGroup;
+			children = (
+				654F7CF01DEED7F300324AAE /* MessageCenter */,
+				65B733F91DF52BB800AE4FC0 /* MessageCenterDemo */,
+				654F7CEF1DEED7F300324AAE /* Products */,
+				56151D316C1C47F8C8EBCE58 /* Pods */,
+				4F201A82D2CE56F6229451A9 /* Frameworks */,
+				C913E4EB6C686D07EE63299D /* ChatSDKResource.bundle */,
+			);
+			sourceTree = "<group>";
+		};
+		654F7CEF1DEED7F300324AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654F7CEE1DEED7F300324AAE /* DigiBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654F7CF01DEED7F300324AAE /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				0904CA041E8A3CA9009D135A /* UIComponent */,
+				09DFEF1C1E81073A002668FB /* MCExtension */,
+				091D04D91E82514F0066D12E /* Inbox */,
+				0904C9FD1E8A3B4C009D135A /* File */,
+				091D04DB1E835E010066D12E /* Todo */,
+				091D04DD1E835E3B0066D12E /* Meeting */,
+				091D04DF1E835E7E0066D12E /* Contact */,
+				160611391E13ECDC00A3F155 /* MCCall&Meet */,
+				1675EBA51E2354820008BB73 /* Resources */,
+				653710EC1E5BEC1E008866A2 /* UICustomized.h */,
+				09DFEF151E80E7A7002668FB /* MCMessageCenterInstance.h */,
+				09DFEF161E80E7A7002668FB /* MCMessageCenterInstance.m */,
+				657DEFD31DEEE542007BD6CB /* MCMessageCenterViewController.h */,
+				657DEFD41DEEE542007BD6CB /* MCMessageCenterViewController.m */,
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		654F7CF11DEED7F300324AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EE5A441DF5380700836D63 /* LaunchScreen.storyboard */,
+				65EE5A1F1DF5360E00836D63 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ../MessageCenter;
+			sourceTree = "<group>";
+		};
+		65B733F91DF52BB800AE4FC0 /* MessageCenterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65B733FF1DF52D2D00AE4FC0 /* MCRootViewController.h */,
+				65B733FD1DF52D2D00AE4FC0 /* MCRootViewController.m */,
+				16CBD0F51E038D96006AFAB9 /* Snapshot */,
+				09DFEF221E8221D2002668FB /* MCSideMenu */,
+				091D04D71E824DE30066D12E /* Home */,
+				654F7CF11DEED7F300324AAE /* Supporting Files */,
+				6511055E1E08F1D700A46EE2 /* MessageCenterDemo.entitlements */,
+				654F7CF41DEED7F300324AAE /* AppDelegate.h */,
+				654F7CF51DEED7F300324AAE /* AppDelegate.m */,
+				65B733FE1DF52D2D00AE4FC0 /* UIViewController+MCHelper.m */,
+				65B734021DF52D2D00AE4FC0 /* UIViewController+MCHelper.h */,
+				16AF38AF1DFA53400002FE4C /* MCPrintPageRenderer.h */,
+				16AF38B01DFA53400002FE4C /* MCPrintPageRenderer.m */,
+				DC3077031E0290B9001221A7 /* MCAccountController.h */,
+				DC3077041E0290B9001221A7 /* MCAccountController.m */,
+				DC3077061E0297DF001221A7 /* MCStatementController.h */,
+				DC3077071E0297DF001221A7 /* MCStatementController.m */,
+				56C476241E02B86A00DC68E7 /* MCSaveToChatController.h */,
+				56C476251E02B86A00DC68E7 /* MCSaveToChatController.m */,
+				56C4762E1E02CB7500DC68E7 /* MCSaveToChatCell.h */,
+				56C4762F1E02CB7500DC68E7 /* MCSaveToChatCell.m */,
+				6595C3B61DEEFD68008CD3F9 /* Assets.xcassets */,
+				DC30770D1E029C33001221A7 /* portfolio-statement.pdf */,
+				654F7D021DEED7F300324AAE /* Info.plist */,
+				6595C3B21DEEF2C1008CD3F9 /* PrefixHeader.pch */,
+			);
+			path = MessageCenterDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654F7CED1DEED7F300324AAE /* DigiBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654F7D1B1DEED7F400324AAE /* Build configuration list for PBXNativeTarget "DigiBank" */;
+			buildPhases = (
+				C4D7F605B60789EF1C942922 /* [CP] Check Pods Manifest.lock */,
+				654F7CEA1DEED7F300324AAE /* Sources */,
+				654F7CEB1DEED7F300324AAE /* Frameworks */,
+				654F7CEC1DEED7F300324AAE /* Resources */,
+				3860B235C95AA5F1B8409C7F /* [CP] Embed Pods Frameworks */,
+				864A7E908A3AEFCCD34D0A2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigiBank;
+			productName = MessageCenter;
+			productReference = 654F7CEE1DEED7F300324AAE /* DigiBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654F7CE61DEED7F300324AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = moxtra;
+				TargetAttributes = {
+					654F7CED1DEED7F300324AAE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L5X58D2989;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 654F7CE91DEED7F300324AAE /* Build configuration list for PBXProject "DigiBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 654F7CE51DEED7F300324AAE;
+			productRefGroup = 654F7CEF1DEED7F300324AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654F7CED1DEED7F300324AAE /* DigiBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654F7CEC1DEED7F300324AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161C4D1D1E13BD18001F8AB4 /* meetcalling.caf in Resources */,
+				65EE5A461DF5380700836D63 /* LaunchScreen.storyboard in Resources */,
+				1675EBA41E2354740008BB73 /* Localizable.strings in Resources */,
+				65EE5A4D1DF55CAA00836D63 /* Assets.xcassets in Resources */,
+				DC30770E1E029C33001221A7 /* portfolio-statement.pdf in Resources */,
+				65EE5A4C1DF55CAA00836D63 /* MCAssets.xcassets in Resources */,
+				3C42070F080C0FE957472283 /* ChatSDKResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3860B235C95AA5F1B8409C7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigiBank/Pods-DigiBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864A7E908A3AEFCCD34D0A2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigiBank/Pods-DigiBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D7F605B60789EF1C942922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654F7CEA1DEED7F300324AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3076F61E027DFE001221A7 /* MCHomeAccountCell.m in Sources */,
+				0963C7A61EA856560075C7FB /* MCMeetRecordPlayCell.m in Sources */,
+				DC3076FC1E027E33001221A7 /* MCHomeNewsCell.m in Sources */,
+				65EE5A361DF536FE00836D63 /* main.m in Sources */,
+				0963C79A1EA728680075C7FB /* MCMeetInfoViewController.m in Sources */,
+				093473651F1DE1CA00A104EB /* MXFontManager.m in Sources */,
+				09E133271E7648CF0060D5F6 /* MCUserListViewController.m in Sources */,
+				65EE5A381DF536FE00836D63 /* AppDelegate.m in Sources */,
+				091BE0F51E8D05C4003684B8 /* MCExpandTableView.m in Sources */,
+				0963C78B1EA4BEE30075C7FB /* MCChatEditCategoryViewController.m in Sources */,
+				0963C7861EA498EC0075C7FB /* MCChatBriefEditDescViewController.m in Sources */,
+				0963C7771EA454050075C7FB /* MCToDoListViewController.m in Sources */,
+				09020C6B1EA08B3500DB0FF0 /* MCChatSettingBriefCell.m in Sources */,
+				0904CA071E8A3CF0009D135A /* MCTabBar.m in Sources */,
+				091BE0F61E8D05C4003684B8 /* MCExpandHeadCell.m in Sources */,
+				0963C78E1EA5A9CC0075C7FB /* MCChatEmailViewController.m in Sources */,
+				65DC53061DF6BC7400D0FF86 /* NSMutableArray+MCHelper.m in Sources */,
+				56C476261E02B86A00DC68E7 /* MCSaveToChatController.m in Sources */,
+				0904C9F61E890033009D135A /* MCMeetListCell.m in Sources */,
+				DC3077051E0290B9001221A7 /* MCAccountController.m in Sources */,
+				65EE5A3A1DF536FE00836D63 /* MCSideMenuViewController.m in Sources */,
+				09D811F11E76890B00D64B48 /* MCUserListCell.m in Sources */,
+				65EE5A3B1DF536FE00836D63 /* MCSideMenuPresentationController.m in Sources */,
+				DC3076F91E027E19001221A7 /* MCHomeInvestmentCell.m in Sources */,
+				56C476301E02CB7500DC68E7 /* MCSaveToChatCell.m in Sources */,
+				0904C9ED1E88D5EA009D135A /* MCMeetListSectionView.m in Sources */,
+				1606113F1E13ECDC00A3F155 /* NSTimer+MCHelper.m in Sources */,
+				0963C7A91EA89E700075C7FB /* NSDate+MCExtension.m in Sources */,
+				09D1A0681E963BDD0052A64A /* MCInviteViewController.m in Sources */,
+				16CBD0FB1E038D96006AFAB9 /* UIScrollView+TYSnapshot.m in Sources */,
+				65DC53091DF6E3D500D0FF86 /* MCFlipFromLeftAnimator.m in Sources */,
+				0963C7831EA493830075C7FB /* MCChatBriefEditTopicViewController.m in Sources */,
+				DC3077081E0297DF001221A7 /* MCStatementController.m in Sources */,
+				65F79A0E1E037E2000B41A11 /* UIView+MCHelper.m in Sources */,
+				65EE5A3C1DF536FE00836D63 /* MCRootViewController.m in Sources */,
+				09020C701EA0A5D300DB0FF0 /* MCChatSettingMemberCell.m in Sources */,
+				091BE0FC1E8D05E8003684B8 /* MCFileListViewController.m in Sources */,
+				65EE5A3D1DF536FE00836D63 /* UIViewController+MCHelper.m in Sources */,
+				0963C7A01EA72B220075C7FB /* MCInputTableViewCell.m in Sources */,
+				165667901E15267200676673 /* MXUserItem+MCHelper.m in Sources */,
+				097EECE91EB86868002C7CD6 /* UIImage+TYSnapshot.m in Sources */,
+				091BE1081E8DFF92003684B8 /* MCFileSigneeCell.m in Sources */,
+				16AF38AD1DFA52690002FE4C /* UIView+MCPdfConvert.m in Sources */,
+				091BE10F1E8E2FE9003684B8 /* MCFileSignActionCell.m in Sources */,
+				093473621F1DE1C800A104EB /* MXColorManager.m in Sources */,
+				091BE0FD1E8D05E8003684B8 /* MCFileListCell.m in Sources */,
+				DCA10A621DF5407F0002AF1D /* MCAddChatOptionController.m in Sources */,
+				65EE5A421DF536FE00836D63 /* UIWindow+MCHelper.m in Sources */,
+				65EE5A291DF536ED00836D63 /* MCMessageCenterViewController.m in Sources */,
+				DC3076EC1E026E93001221A7 /* MCHomeViewController.m in Sources */,
+				65EE5A2B1DF536ED00836D63 /* MCChatListViewController.m in Sources */,
+				09DFEF171E80E7A7002668FB /* MCMessageCenterInstance.m in Sources */,
+				65EE5A2F1DF536ED00836D63 /* MCMeetListViewController.m in Sources */,
+				166851301E136B8D0007B538 /* MCMeetRingCallViewController.m in Sources */,
+				09020C591EA0795700DB0FF0 /* MCChatSettingViewController.m in Sources */,
+				09D1A07B1E9781250052A64A /* MCUserInfoViewController.m in Sources */,
+				8554EC371F1787580044DD7A /* MCCallKitManager.m in Sources */,
+				653173CA1DFEB78300B68767 /* MCTabButton.m in Sources */,
+				DCA10A7C1DF55BCB0002AF1D /* MCTodoListCell.m in Sources */,
+				0904C9FC1E89FE15009D135A /* UIImage+MCExtension.m in Sources */,
+				16AF38B11DFA53400002FE4C /* MCPrintPageRenderer.m in Sources */,
+				65EE5A311DF536EE00836D63 /* MCChatListCell.m in Sources */,
+				09D1A0701E9729940052A64A /* MCCheckBox.m in Sources */,
+				091BE10C1E8E21B6003684B8 /* MCExpandCompleteCell.m in Sources */,
+				0963C77A1EA469EB0075C7FB /* MCChatBriefSettingViewController.m in Sources */,
+				09CC40241E9CCDD000620F1F /* MCFileDeclineViewController.m in Sources */,
+				0904C9F91E89FC97009D135A /* UIImageView+MCExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1675EBA21E2354740008BB73 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1675EBA31E2354740008BB73 /* en */,
+				E077582D1F630AE200C87391 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		65EE5A441DF5380700836D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EE5A451DF5380700836D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654F7D191DEED7F400324AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654F7D1A1DEED7F400324AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654F7D1C1DEED7F400324AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEE7D527E45883982EE4D05 /* Pods-DigiBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessageCenterDemo/MessageCenterDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/stone/Documents/my_svn/4.0/moxtra4.0_sdk_dev/ChatSDK/DigiBank,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MessageCenterDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MessageCenterDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+				);
+				LLVM_LTO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MessageCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654F7D1D1DEED7F400324AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF071F84CD90757573F9B49 /* Pods-DigiBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MessageCenterDemo/MessageCenterDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 8RG52VJRN9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/stone/Documents/my_svn/4.0/moxtra4.0_sdk_dev/ChatSDK/DigiBank,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MessageCenterDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MessageCenterDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+				);
+				LLVM_LTO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.MessageCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654F7CE91DEED7F300324AAE /* Build configuration list for PBXProject "DigiBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654F7D191DEED7F400324AAE /* Debug */,
+				654F7D1A1DEED7F400324AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654F7D1B1DEED7F400324AAE /* Build configuration list for PBXNativeTarget "DigiBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654F7D1C1DEED7F400324AAE /* Debug */,
+				654F7D1D1DEED7F400324AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654F7CE61DEED7F300324AAE /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - Masonry (1.0.1)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - Masonry
+  - SWTableViewCell
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: 6aa150ccda48b8e26ceec01cf5434296f400fc6d
+
+COCOAPODS: 1.1.1
